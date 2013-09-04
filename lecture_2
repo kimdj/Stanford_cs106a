@@ -1,0 +1,77 @@
+Stanford_cs106a
+lecture_2
+
+----method: set of instructions
+
+----move, pickBeeper, turnLeft, turnRight, putBeeper
+
+----algorithm: recipe for doing something
+
+----valid Karel cmd example: move();
+
+----run method..
+
+	public void run() {
+		move();
+		pickBeeper();
+		move();
+		turnLeft();
+		move();
+		turnLeft();
+		turnLeft();
+		turnLeft();
+		move();
+		putBeeper();
+		move();
+	}
+
+----Karel IS a defined class in Java
+
+----Creating our OWN class:
+
+	import stanford.karel.*;
+
+	public class ourKarelProgram extends Karel {
+		public void run() {
+			move();
+			pickBeeper();
+			move();
+			turnLeft();
+			move();
+			turnRight();
+			/*turnLeft();
+			turnLeft();
+			turnLeft();*/
+			move();
+			putBeeper();
+			move();
+	}
+
+		private void turnRight() {
+			turnLeft();
+			turnLeft();
+			turnLeft();
+		}
+
+		private void turnAround() {
+			turnLeft();
+			turnLeft();
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
