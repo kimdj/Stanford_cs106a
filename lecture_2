@@ -45,7 +45,7 @@ lecture_2
 			move();
 			putBeeper();
 			move();
-	}
+		}
 
 		private void turnRight() {
 			turnLeft();
@@ -57,13 +57,28 @@ lecture_2
 			turnLeft();
 			turnLeft();
 		}
+	}
 
+----for loop:
 
+	for (int i=0; i<3; i++) {
+		//body of instructions
+		turnLeft();
+	}
 
+----while loop:
 
+	while (frontIsClear()) {
+		move();
+	}
 
+----if loop:
 
-
+	if (beepersPresent()) {
+		pickBeeper();
+	} else {
+		putBeeper();
+	}
 
 
 
