@@ -80,9 +80,21 @@ lecture_2
 		putBeeper();
 	}
 
+----The power to define methods unlocks the most important strategy
+    in programming—the process of breaking a large problem down
+    into smaller pieces that are easier to solve.
 
+	import stanford.karel.*;
 
+	public class myKarel extends SuperKarel {
+		public void run() {
+			//body
+		}
 
+		private void myMethod() {
+			//body of method definition
+		}
+	}
 
 
 
